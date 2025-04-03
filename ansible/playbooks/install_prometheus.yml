@@ -1,0 +1,10 @@
+---
+- name: Install and configure Prometheus server
+  hosts: prometheus
+  become: true
+  vars_files:
+    - vars/prometheus.yml
+
+  roles:
+    - role: prometheus.prometheus.prometheus
+
