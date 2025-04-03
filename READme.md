@@ -112,9 +112,9 @@ collections:
 
 The dashboard displays:
 
-- [CPU usage] (screenshots/cpu_usage.png)
-- [Memory usage percent] (screenshots/memory_usage.png)
-- [Disk usage per mount] (screenshots/disk_usage.png)
+- [CPU usage](screenshots/cpu_usage.png)
+- [Memory usage](screenshots/memory_usage.png)
+- [Disk usage per mount](screenshots/disk_usage.png)
 
 **Dashboard JSON file:**  
 [`grafana_json/grafana-system-health-dashboard.json`](grafana_json/grafana-system-health-dashboard.json)
