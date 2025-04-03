@@ -28,3 +28,8 @@ screenshots/Memory Usage
 # Optional: ignore exported JSON if you regenerate it via automation
 # grafana_json/*.json
 
+
+# Ansible local config files
+ansible/ansible.cfg
+ansible/inventory
+
