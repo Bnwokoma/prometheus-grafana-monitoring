@@ -2,11 +2,11 @@
 
 This project is a hands-on, self-hosted monitoring lab I built to simulate real-world Linux system monitoring. It showcases my ability to design, configure, and manage a multi-node monitoring stack using industry standard tools like **Prometheus**, **Grafana**, and **Node Exporter**.
 
-It reflects the kind of work expected from a Linux System Administrator or DevOps Engineer, and was built entirely from the ground up in my own lab environment to reinforce RHCE-level skills.
+It reflects the kind of work expected from a Linux System Administrator and was built entirely from the ground up in my own lab environment to reinforce RHCE-level skills.
 
 ---
 
-## 📌 Why I Built This
+## Why I Built This
 
 - To simulate enterprise-grade Linux server monitoring across multiple hosts
 - To gain real hands-on experience with Prometheus and Grafana
@@ -16,7 +16,7 @@ It reflects the kind of work expected from a Linux System Administrator or DevOp
 
 ---
 
-## 🧱 Technologies Used
+## Technologies Used
 
 - **Prometheus**: Metric collection from Linux systems.
 - **Node Exporter**: Installed on each remote host to expose system-level metrics.
@@ -26,7 +26,7 @@ It reflects the kind of work expected from a Linux System Administrator or DevOp
 
 ---
 
-## 🧠 What I Did (Summary)
+## What I Did (Summary)
 
 - Manually set up a Prometheus server to scrape metrics from multiple Linux VMs. Automation comes later
 - Manually installed Node Exporter on each monitored VM and enabled it with systemd. Automation comes later.
@@ -41,7 +41,7 @@ It reflects the kind of work expected from a Linux System Administrator or DevOp
 
 ---
 
-## 🔐 Prometheus Configuration (Sanitized)
+## Prometheus Configuration (Sanitized)
 Note: IPs are masked intentionally to protect internal network details. In my lab, these were internal bridge IPs assigned to each VM.
 [Prometheus Targets](screenshots/prometheus-targets.png)
 
@@ -113,7 +113,7 @@ collections:
 The dashboard displays:
 
 - [CPU usage] (screenshots/cpu_usage.png)
-- [Memory usage percent (total vs. available)] (screenshots/memory_usage.png)
+- [Memory usage percent] (screenshots/memory_usage.png)
 - [Disk usage per mount] (screenshots/disk_usage.png)
 
 **Dashboard JSON file:**  
@@ -128,7 +128,7 @@ To import in Grafana:
 
 ---
 
-## 🧾 Project Summary
+## Project Summary
 
 This project demonstrates my ability to:
 
