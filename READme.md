@@ -51,13 +51,13 @@ Note: IPs are masked intentionally to protect internal network details. In my la
 ```yaml
 - job_name: "node_exporters"
   static_configs:
-    - targets: ['192.x.x.x:9100']
+    - targets: ['192.168.x.x:9100']
       labels:
         alias: "rhel9-vm01"
-    - targets: ['192.x.x.x:9100']
+    - targets: ['192.168.x.x:9100']
       labels:
         alias: "rocky-vm02"
-    - targets: ['192..x.x:9100']
+    - targets: ['192.168.x.x:9100']
       labels:
         alias: "prolug"
 ```
@@ -66,9 +66,9 @@ Note: IPs are masked intentionally to protect internal network details. In my la
 
 The dashboard displays:
 
-- [CPU usage] (screenshots/CPU%20Usage)
-- [Memory usage percent (total vs. available)] (screenshots/Memory%20Usage)
-- [Disk usage per mount] (screenshots/Disk%20Usage)
+- [CPU usage] (screenshots/cpu_usage.png)
+- [Memory usage percent (total vs. available)] (screenshots/memory_usage.png)
+- [Disk usage per mount] (screenshots/disk_usage.png)
 
 **Dashboard JSON file:**  
 [`grafana_json/grafana-system-health-dashboard.json`](grafana_json/grafana-system-health-dashboard.json)
