@@ -1,0 +1,30 @@
+# OS + Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+# Temp or backup files
+*~
+*.tmp
+*.log
+
+# GIMP or image editing leftovers
+*.xcf
+
+# Secrets or tokens (manually managed)
+*.key
+*.pem
+*.crt
+*.env
+*.token
+
+# Ignore incorrectly named image files
+screenshots/CPU Usage
+screenshots/Disk Usage
+screenshots/Memory Usage
+
+# Optional: ignore exported JSON if you regenerate it via automation
+# grafana_json/*.json
+
